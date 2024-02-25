@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="" method="">
+        <table>
+            <tr>
+                <th><label for="nome">Nome:</label></th>
+                <td><input type="text" name="nome" id="nome"></td>
+            </tr>
+            <tr>
+                <th><label for="email">E-mail:</label></th>
+                <td><input type="text" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <th><label for="mensagem">Digite aqui sua mensagem:</label></th>
+                <td><textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <th><label for="sexo">Sexo:</label></th>
+                <td><input type="radio" name="sexo" id="sexo">Masculino</td>
+                <td><input type="radio" name="sexo" id="sexo">Feminino</td>
+            </tr>
+            <tr>
+                <th><label for="jogos">Jogos que gosta:</label></th>
+                <td><input type="checkbox" name="jogos" id="jogos">LoL</td>
+                <td><input type="checkbox" name="jogos" id="jogos">WoW</td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><input type="checkbox" name="jogos" id="jogos">CS</td>
+                <td><input type="checkbox" name="jogos" id="jogos">DotA</td>
+            </tr>
+            <tr>
+                <th><label for="nivel">Qual o seu nível de Gameplay?</label></th>
+                <td><select name="nivel" id="nivel">
+                    <option value="noob">Iniciante</option>
+                    <option value="medium">Jogo há algum tempo</option>
+                    <option value="pro">Sou profissional</option>
+                </select></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><button>Enviar!</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
